@@ -36,7 +36,6 @@ while (numsteps > 0)
     for i=2:(grid_x-1)
         for j=2:(grid_y-1)
             V(i,j) = 0.25*(V(i-1,j) + V(i+1,j) + V(i,j-1) + V(i,j+1));
-            Ey(i,j) = 0.25*(Ey(i-1,j) + Ey(i+1,j) + Ey(i,j-1) + Ey(i,j+1));
         end
     end
     
